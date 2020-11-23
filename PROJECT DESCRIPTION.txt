@@ -1,0 +1,17 @@
+The object of this project is to find and classify different types of cannabis strains. 
+
+FIRST PART
+At first I got all the data from main API @ http://strainapi.evanbusse.com. 
+I transformed the data into json and from json into pandas Dataframe. Then I converted the "effects" column (containing three dictionaries of lists) into three columns.
+
+SECOND PART
+Then I defined the main functions: from user's imput you can classify strains with multiple parameters of positive effects, medical issues, and negative effects to avoid. 
+
+EXTRAS
+When all dataframe is filtered, I added two function. 
+The first one tell the users which strain race works better (probability percentage) based on user's imput.
+The second retrieves all flavours yet available (from the filtered database) and let the user filter again and find the strains with his favorite flavor, from the previous dataframe. 
+PD: I left the flavor filter at the end because I considered this as a secondary factor. 
+
+THE AIM OF THE PROJECT
+The aim of this project is to create a prototype algorithm from which you can build a "find your strain" app.
